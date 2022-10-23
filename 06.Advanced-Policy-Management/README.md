@@ -307,7 +307,8 @@ In this section you will perform an integration between Red Hat Advanced Cluster
 Run the next command to deploy the Compliance Operator using an RHACM policy -
 
 ```
-<hub> $ oc apply -f https://raw.githubusercontent.com/michaelkotelnikov/rhacm-workshop/master/06.Gatekeeper-Integration/exercise-compliance-operator/policy-compliance-operator.yaml
+<hub> $  oc apply -f https://raw.githubusercontent.com/siva0903/rhacm-workshop/master/06.Advanced-Policy-Management/exercise-compliance-operator/policy-compliance-operator.yaml
+
 ```
 
 Make sure that the policy has been deployed successfully in RHACM's Governance dashboard - The policy status needs to be **compliant**. The Compliance Operator is deployed in the `openshift-compliance` namespace on the managed cluster.
