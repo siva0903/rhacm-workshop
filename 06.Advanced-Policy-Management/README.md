@@ -324,7 +324,7 @@ rhcos4-openshift-compliance-pp-c7b548bd-8pbhq           1/1     Running     0   
 Now that the Compliance Operator is deployed, initiate a compliance scan using an RHACM policy. To initiate a compliance scan, run the next command -
 
 ```
-<hub> $ oc apply -f https://raw.githubusercontent.com/michaelkotelnikov/rhacm-workshop/master/06.Gatekeeper-Integration/exercise-compliance-operator/policy-moderate-scan.yaml
+<hub> $  oc apply -f https://raw.githubusercontent.com/siva0903/rhacm-workshop/master/06.Advanced-Policy-Management/exercise-compliance-operator/policy-moderate-scan.yaml
 ```
 
 After running the command, a compliance scan is initiated. The scan will take about 5 minutes to complete. Run the next command on the managed cluster to check the status of the scan -
