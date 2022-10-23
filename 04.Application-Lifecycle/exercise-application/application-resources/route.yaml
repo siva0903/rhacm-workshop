@@ -13,6 +13,6 @@ spec:
     termination: edge
   to:
     kind: Service
-    name: webserver
+    name: webserver-dev
     weight: 100
   wildcardPolicy: None
