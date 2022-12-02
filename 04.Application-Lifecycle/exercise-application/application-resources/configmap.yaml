@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   application.html: |
-    <h1>Kemet OneMES Development Application</h1>
+    <h1>Darden Development Application</h1>
 kind: ConfigMap
 metadata:
   name: application-dev
