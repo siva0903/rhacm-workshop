@@ -42,7 +42,7 @@ metadata:
   namespace: webserver-acm
 spec:
   type: Git
-  pathname: https://github.com/michaelkotelnikov/rhacm-workshop.git
+  pathname: https://github.com/siva0903/rhacm-workshop.git
 EOF
 
 <hub> $ oc apply -f channel.yaml
